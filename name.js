@@ -1,31 +1,25 @@
-// Gets user input
-var name = prompt("What is your name?");
-var num = prompt("What is your real age? ");
+// // program to generate a multiplication table
 
-// Uses user input to print out information
-println("Hello " + name+ "!");
-println(num + "?! That's my real age!");
+// // take input from the user
+// const number = parseInt(prompt(' Enter an integer : '));
 
-// Prints out the variable type
-println("Name is a " + typeof name);
-println("Num is a " + typeof num );
+// //creating a multiplication table
+// for(let i = 1; i <= 12; i++) {
 
-var customerName = prompt("Please enter your name", "<name goes here>");
+//     // multiply i with number
+//     const result = i * number;
 
-if (customerName!= null) {
+//     //  display the result
+//     console.log(`${number} * ${i} = ${result}`);
+// }
 
-    document.getElementById("welcome").innerHTML =
 
-    "Hello " + customerName + "! How are you today?";}
+function welcomeTheUsar() {
+  // Some code borrowed and rewritten from UNKNOWN's lessons
 
-    var r = confirm("Are you sure you want to send a payment?");
-
-if (r == true) {
-
-    x = "Payment sent!";
-
-} else {
-
-    x = "Payment cancelled!";
-
+  let firstName = document.getElementById("first-name").value;
+  let lastName = document.getElementById("last-name").value;
+  let fullName = "first-name" + "last-name".value;
+  console.log(fullName);
+  alert("Welcome " + "To the world of innovation!!!!!");
 }

@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-<script> 
-
-var customerName = prompt("Please enter your name", "");
-if (customerName!= null) {
-    document.getElementById("welcome").innerHTML =
-    "Hello " + customerName + "! How are you today?";
-
-}
-
-
-
-</script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
 </head>
-
 <body>
+    <h1>Best Customer</h1>
+<div id="welcomeTheUsar">
+  <!--This is the welcome div for the user, code also borrowed and moddified from UNKNOWN's lessons-->
+  <input placeholder="Enter First Name" id="first-name">
+  <input placeholder="Enter Last Name" id="last-name">
+  <button onclick="welcomeTheUsar()">Greetings</button>
+</div>
 
-<div id="welcome">My First JavaScript code.</div>
-
-
+  </form>
+  <script src="name.js"></script>
 </body>
 </html>
-
